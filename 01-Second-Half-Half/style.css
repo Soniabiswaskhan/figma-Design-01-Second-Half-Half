@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1152px;
+  margin: 20px auto;
+}
+
+.team_sec{
+  display: flex;
+  align-items: center;
+}
+
+.team_sec .team_head{
+  background-color: chartreuse;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.team_detail{
+  padding-left: 30px;
+  width: 500px;
+}
+
+.card_container_1 {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 50px;
+}
+
+.card{
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 387px;
+  height: 331px;
+}
+
+.linkedin_icon{
+  display: flex;
+  padding-left: 340px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.profile_sec{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.sec_2{
+  margin-left: 20px;
+}
+
+.profile_img img{
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card_detail{
+  width: 300px;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 80px;
+  border-top: 1px solid black;
+}
+
+
+.Testimonials_sec{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.Testimonials_sec .Testimonials_head{
+  background-color: chartreuse;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Testimonials_detail{
+  padding-left: 30px;
+  width: 500px;
+}
+
+.employee_container{
+  background-color: rgb(15, 15, 15);
+  color: white;
+  margin-top: 30px;
+  padding: 80px;
+  border-radius: 20px;
+  width: 1152px;
+  height: 250px;
+}
+
+.employee_detil{
+  width: 800px;
+  text-align: justify;
+  border-radius: 20px;
+  border: 0.5px solid white;
+  padding: 20px;
+}
+
+.emplyee_info{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.emplyee_info h2{
+  color: chartreuse;
+}
+
+
+.Contact_sec{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.Contact_sec .Contact_head{
+  background-color: chartreuse;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Contact_detail{
+  padding-left: 30px;
+  width: 500px;
+}
+
+.form{
+  background-color: rgb(228, 228, 228);
+  color: black;
+  margin-top: 30px;
+  padding: 80px;
+  border-radius: 20px;
+  width: 1152px;
+  height: 400;
+}
+
+.form_head{
+  margin-bottom: 20px;
+}
+
+.select_2{
+  margin-left: 20px;
+}
+
+.form_body{
+  display: block;
+}
+
+.input_detail{
+  margin: 15px 0;
+  border: none;
+  border-radius: 5px;
+  width: 350px;
+  height: 40px;
+  padding-left: 20px;
+  border: 0.5px solid black;
+}
+
+.input_btn{
+  width: 350px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  padding: 80px;
+  width: 1152px;
+  height: 400;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-align: center;
+}
